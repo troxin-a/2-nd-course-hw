@@ -1,0 +1,81 @@
+@media (max-width: 875px) {
+    .top {
+        height: 500px;
+        background-image: url(../img/background_mobile.png);
+        padding-top: 238px;
+
+        h1 {
+            width: auto;
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &_text {
+            width: auto;
+            font-size: 14px;            
+            line-height: 22px;
+            text-align: center;
+        }
+    }
+
+    .menu {
+        &_item {
+            width: 343px;
+            height: 300px;
+        }
+
+        &_img {
+            width: 343px;
+        }
+    }
+
+    .container {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+    }
+
+    .game {
+        padding-top: 51px;
+        padding-bottom: 85px;
+        &_container {
+            flex-direction: column;
+            align-items: center;
+            gap: 64px;
+        }
+
+        &_left {
+            width: 343px;
+        }
+
+        &_caption {
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+        }
+
+        &_description {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            text-align: center;
+        }
+
+        &_about {
+            width: 343px;
+            height: 236px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
+}

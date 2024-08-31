@@ -16,55 +16,66 @@
 <body>
     <header>
         <div class="top">
-            <div class="center">
-                <h1>Добро пожаловать на мой сайт !</h1>
-
-                <p class="top_text">
-                    Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <strong>поехали</strong> и
-                    <strong>приступай</strong>
-                </p>
-
-                <a href="#"><div class="top_button">Поехали!</div></a>
+            <div class="container">
+                <div class="about">
+                    <h1>Добро пожаловать на мой сайт !</h1>
+                    <p class="top_text">
+                        Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <strong>поехали</strong> и
+                        <strong>приступай</strong>
+                    </p>
+                    <a href="#"><div class="main-btn">Поехали!</div></a>
+                </div>
             </div>          
         </div>
 
         <div class="menu">
-            <div class="menu_group center">
+            <div class="container menu_group">
                 <div class="menu_item">                    
                     <div class="menu_bottomlayer">
-                        <img src="src/img/game1.png" alt="Игра 1">                        
+                        <img class="menu_img" src="src/img/game1.png" alt="Игра 1">                        
                     </div>                    
                     <a href="#">
                         <div class="menu_gradient">                                
                         </div>                        
-                        <div class="menu_caption">Игра 1</div>
+                        <span class="menu_caption">Игра 1</span>
                     </a>                    
                 </div>
                 <div class="menu_item">                    
                     <div class="menu_bottomlayer">
-                        <img src="src/img/game2.png" alt="Игра 2">                        
-                    </div>                    
+                        <img class="menu_img" src="src/img/game2.png" alt="Игра 2">
+                    </div>
                     <a href="#">
                         <div class="menu_gradient">                                
                         </div>                        
-                        <div class="menu_caption">Игра 2</div>
+                        <span class="menu_caption">Игра 2</span>
                     </a>                    
                 </div>
                 <div class="menu_item">                    
                     <div class="menu_bottomlayer">
-                        <img src="src/img/game3.png" alt="Игра 3">                        
+                        <img class="menu_img" src="src/img/game3.png" alt="Игра 3">                        
                     </div>                    
                     <a href="#">
                         <div class="menu_gradient">                                
                         </div>                        
-                        <div class="menu_caption">Игра 3</div>
+                        <span class="menu_caption">Игра 3</span>
                     </a>                    
                 </div>
             </div>
         </div>
-    </header>
 
-    <script src="src/js/script.js"></script>
+        <div class="game">
+            <div class="container game_container">
+                <div class="about game_left">
+                    <h1 class="game_caption">Времена года!</h1>                    
+                    <p class="game_description">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+                    <a href="#"><div class="main-btn">Играть!</div></a>
+                </div>
+                <div class="about">
+                    <img style="width: 343px;" src="src/img/undraw_video_game_night.png" alt="Геймпад с двумя чувачками">
+                </div>
+            </div>            
+        </div>
+    </header>
 </body>
 
 </html>
