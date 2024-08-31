@@ -117,7 +117,6 @@ body {
 
     &_about {
         width: 584px;
-        height: 236px;
     }
 
     &_caption {
@@ -136,13 +135,13 @@ body {
         letter-spacing: 0px;
     }
 
-    &_left {
-        width: 584px;
-    }
-
     &_container {
         display: flex;
         justify-content: space-between;
+    }
+
+    &_img {
+        width: 485px;
     }
 }
 
