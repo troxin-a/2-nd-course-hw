@@ -131,6 +131,15 @@ body {
   width: 485px;
 }
 
+.game2_div {
+  width: 500px;
+  height: 200px;
+  top: calc(50% - 100px);
+  left: calc(50% - 250px);
+  background-color: red;
+  position: fixed;
+}
+
 .game3 {
   max-height: 800px;
   padding-top: 276px;
@@ -210,7 +219,7 @@ body {
     padding-right: calc(50% - 440px);
   }
 }
-@media (max-width: 875px) {
+@media (max-width: 767px) {
   .top {
     height: 500px;
     background-image: url(../img/background_mobile.png);
