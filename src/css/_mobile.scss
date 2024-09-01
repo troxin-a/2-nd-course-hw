@@ -38,14 +38,15 @@
     .game {
         padding-top: 51px;
         padding-bottom: 85px;
+
         &_container {
             flex-direction: column;
             align-items: center;
             gap: 64px;
-        }
 
-        &_left {
-            width: 343px;
+            &-reverse {
+                flex-direction: column-reverse;
+            }
         }
 
         &_caption {
@@ -68,6 +69,10 @@
             flex-direction: column;
             align-items: center;
             gap: 32px;
+        }
+
+        &_img {
+            width: 343px;
         }
     }
 

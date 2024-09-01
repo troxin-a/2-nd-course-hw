@@ -107,7 +107,6 @@ body {
 }
 .game_about {
   width: 584px;
-  height: 236px;
 }
 .game_caption {
   color: rgb(255, 255, 255);
@@ -123,12 +122,12 @@ body {
   line-height: 32px;
   letter-spacing: 0px;
 }
-.game_left {
-  width: 584px;
-}
 .game_container {
   display: flex;
   justify-content: space-between;
+}
+.game_img {
+  width: 485px;
 }
 
 .main-btn {
@@ -194,8 +193,8 @@ body {
     align-items: center;
     gap: 64px;
   }
-  .game_left {
-    width: 343px;
+  .game_container-reverse {
+    flex-direction: column-reverse;
   }
   .game_caption {
     font-size: 32px;
@@ -215,6 +214,9 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 32px;
+  }
+  .game_img {
+    width: 343px;
   }
   .about {
     display: flex;
