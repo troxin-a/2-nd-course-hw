@@ -1,0 +1,28 @@
+@media (max-width: 1260px) {
+    .container {
+        padding-left: calc(50% - 540px);
+        padding-right: calc(50% - 540px);
+    }
+
+    .game {
+        &_caption {
+            font-size: 32px;
+            line-height: 39px;
+        }
+
+        &_description {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+        }
+
+        &_about {
+            width: 343px;
+            height: 236px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 32px;
+        }
+    }
+}
