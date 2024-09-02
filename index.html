@@ -23,10 +23,8 @@
                     <p class="top_text">
                         Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <strong>поехали</strong> и
                         <strong>приступай</strong>
-                    </p>
-                    <a href="#">
-                        <div class="main-btn">Поехали!</div>
-                    </a>
+                    </p>                    
+                    <div class="main-btn" onclick="startAllGames()">Поехали!</div>                    
                 </div>
             </div>
         </div>
@@ -47,14 +45,14 @@
                     <div class="menu_bottomlayer">
                         <img class="menu_img" src="src/img/game2.png" alt="Игра 2">
                     </div>
-                    <div class="menu_gradient"></div>
+                    <div class="menu_gradient" onclick="game2()"></div>
                     <span class="menu_caption">Игра 2</span>
                 </div>
                 <div class="menu_item">
                     <div class="menu_bottomlayer">
                         <img class="menu_img" src="src/img/game3.png" alt="Игра 3">
                     </div>
-                    <div class="menu_gradient"></div>
+                    <div class="menu_gradient" onclick="game3()"></div>
                     <span class="menu_caption">Игра 3</span>
                 </div>
             </div>
@@ -83,7 +81,7 @@
                     <h1 class="game_caption">Запомни слова</h1>
                     <p class="game_description">При нажатии на кнопку играть, вы увидите несколько слов, которые вам
                         необходимо запомнить.</p>
-                    <div class="main-btn">Играть!</div>
+                    <div class="main-btn" onclick="game2()">Играть!</div>
                 </div>
             </div>
         </div>
@@ -94,7 +92,7 @@
                     <h1 class="game_caption">Игра в загадки</h1>
                     <p class="game_description game3_description">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите
                         не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
-                    <div class="main-btn">Играть!</div>
+                    <div class="main-btn" onclick="game3()">Играть!</div>
                 </div>
             </div>
         </div>
@@ -106,8 +104,8 @@
         </div>
     </footer>
 
-    <script src="src/js/hw-5.js"></script>
-    <script src="src/js/hw-6.js"></script>
+    <script src="src/js/hw-8.js"></script>
+    <script src="src/js/games.js"></script>
 </body>
 
 </html>
